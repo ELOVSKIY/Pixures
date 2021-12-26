@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 rootProject.name = "Pixures"
 include(":app")
 include(":model")
+include(":source")
