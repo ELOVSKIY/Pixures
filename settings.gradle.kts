@@ -8,6 +8,7 @@ pluginManagement {
         id("com.android.application") version "7.1.0-alpha12"
         id("com.android.library") version "7.1.0-alpha12"
         id("org.jetbrains.kotlin.android") version "1.5.31"
+        id("org.jetbrains.kotlin.jvm") version "1.5.31"
     }
 }
 dependencyResolutionManagement {
@@ -19,3 +20,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Pixures"
 include(":app")
+include(":model")
