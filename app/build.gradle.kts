@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     kotlin("android")
+    kotlin("kapt")
 }
 
 android {
@@ -38,9 +39,20 @@ android {
     }
 }
 dependencies {
+    implementation(Dependency.COROUTINES)
+
     implementation(Dependency.APPCOMPAT)
     implementation(Dependency.MATERIAL)
     implementation(Dependency.CONSTRAINT)
+
+    implementation(Dependency.NAVIGATION_FRAGMENT)
+    implementation(Dependency.NAVIGATION_UI)
+
+    implementation(Dependency.ROOM_RUNTIME)
+    implementation(Dependency.ROOM_KTX)
+    kapt(Dependency.ROOM_COMPILER)
+
+    implementation(Dependency.PAGING)
 
     implementation(Dependency.JUNIT)
 }
