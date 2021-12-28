@@ -4,6 +4,7 @@
     <bytecodeTargetLevel target="1.7">
       <module name="Pixures.app" target="11" />
       <module name="Pixures.buildSrc" target="11" />
+      <module name="Pixures.telegram-source" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

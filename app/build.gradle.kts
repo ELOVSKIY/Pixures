@@ -12,8 +12,8 @@ android {
         applicationId = ConfigData.applicationId
         minSdkVersion(ConfigData.minSdkVersion)
         targetSdkVersion(ConfigData.targetSdkVersion)
-        versionCode = ConfigData.versionCode
-        versionName = ConfigData.versionName
+        versionCode = ConfigData.appVersionCode
+        versionName = ConfigData.appVersionName
 
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
