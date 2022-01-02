@@ -5,13 +5,14 @@ plugins {
 }
 
 android {
-    compileSdkVersion(ConfigData.compileSdkVersion)
-    buildToolsVersion(ConfigData.buildToolsVersion)
+    compileSdk = ConfigData.compileSdkVersion
+    buildToolsVersion = ConfigData.buildToolsVersion
 
     defaultConfig {
         applicationId = ConfigData.applicationId
-        minSdkVersion(ConfigData.minSdkVersion)
-        targetSdkVersion(ConfigData.targetSdkVersion)
+
+        minSdk = ConfigData.minSdkVersion
+        targetSdk = ConfigData.targetSdkVersion
         versionCode = ConfigData.appVersionCode
         versionName = ConfigData.appVersionName
 
