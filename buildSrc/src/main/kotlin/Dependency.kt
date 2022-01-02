@@ -1,6 +1,8 @@
 object Dependency {
     const val COROUTINES = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${DependencyVersion.COROUTINES}"
 
+    const val ANNOTATION = "androidx.annotation:annotation:${DependencyVersion.ANNOTATION}"
+
     const val APPCOMPAT = "androidx.appcompat:appcompat:${DependencyVersion.APPCOMPAT}"
     const val MATERIAL = "com.google.android.material:material:${DependencyVersion.MATERIAL}"
     const val CONSTRAINT = "androidx.constraintlayout:constraintlayout:${DependencyVersion.CONSTRAINT}"

@@ -10,4 +10,6 @@ java {
 
 dependencies {
     implementation(project(":model"))
+
+    implementation(Dependency.ANNOTATION)
 }

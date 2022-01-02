@@ -1,5 +1,8 @@
 object DependencyVersion {
     const val COROUTINES = "1.5.0"
+
+    const val ANNOTATION = "1.1.0"
+
     const val APPCOMPAT = "1.0.0"
     const val MATERIAL = "1.4.0"
     const val CONSTRAINT = "2.1.2"
