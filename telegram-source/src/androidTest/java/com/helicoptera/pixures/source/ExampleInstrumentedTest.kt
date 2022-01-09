@@ -1,4 +1,4 @@
-package com.helicoptera.pixures.telegram
+package com.helicoptera.pixures.source
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

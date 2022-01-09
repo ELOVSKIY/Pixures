@@ -1,4 +1,4 @@
-package com.helicoptera.pixures.telegram
+package com.helicoptera.pixures.source
 
 import org.junit.Test
 
