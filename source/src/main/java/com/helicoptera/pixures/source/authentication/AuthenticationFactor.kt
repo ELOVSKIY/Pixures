@@ -6,6 +6,5 @@ interface AuthenticationFactor {
 
     fun getAuthenticationType(): AuthenticationType
 
-    @IdRes
-    fun getAuthenticationTitle(): Int
+    fun authenticate(value: String)
 }

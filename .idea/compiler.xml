@@ -4,6 +4,7 @@
     <bytecodeTargetLevel target="1.8">
       <module name="Pixures.app" target="11" />
       <module name="Pixures.buildSrc" target="11" />
+      <module name="Pixures.source-mediator" target="11" />
       <module name="Pixures.telegram-source" target="11" />
     </bytecodeTargetLevel>
   </component>

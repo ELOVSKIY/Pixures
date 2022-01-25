@@ -35,4 +35,8 @@ android {
 
 dependencies {
     implementation(project(":source"))
+
+    implementation("androidx.annotation:annotation:1.3.0")
+
+    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
 }
